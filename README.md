@@ -1,64 +1,32 @@
 # OTML Practical 7: Convex Optimization and Global Minimum
 
-. Project Title
+## 1. Aim
 
-**Understanding Convex Optimization and Global Minimum using Cost Function Visualization**
+The aim of this practical is to understand convex optimization and the concept of a global minimum using cost-function visualization.
 
-. Subject
+In this practical, students visualize a simple convex function and observe why convex optimization is important in machine learning. The practical helps students understand that in convex optimization, every local minimum is also a global minimum.
 
-**Optimization Techniques for Machine Learning (OTML)**
+---
 
-. Practical Number
+## 2. Course and Module Mapping
 
-**Practical 7**
+**Course:** A8751 – Optimization Techniques in Machine Learning  
+**Module:** Module 1 – Model Fitting and Error Measurement  
+**Practical Topic:** Convex Optimization and Global Minimum
 
-. Objective
+This practical is mapped with Module 1 of OTML, where students study model fitting, error measurement, cost functions, optimization behaviour, and the role of convexity in machine learning.
 
-The objective of this practical is to understand the concept of convex optimization and global minimum using a simple cost function visualization.
+---
 
-After completing this practical, students will be able to:
+## 3. Theory Background
 
-- Understand convex optimization.
-- Understand convex functions.
-- Differentiate between local minimum and global minimum.
-- Understand why convexity is important in machine learning.
-- Visualize optimization behavior graphically.
+Convex optimization refers to optimization problems where the objective function is convex and the feasible region is convex.
 
-. Theory
+A function is called convex if the line segment joining any two points on the curve lies above or on the curve.
 
-Convex optimization refers to optimization problems where:
+In simple terms, a convex function has a bowl-shaped structure. This shape is very useful in optimization because it avoids multiple misleading local minima.
 
-- The objective function is convex.
-- The feasible region is convex.
-
-A function is called convex if any line segment joining two points on the curve lies above or on the curve.
-
-In convex optimization, every local minimum is also a global minimum. This property makes optimization reliable and useful in machine learning.
-
-. Importance of Convex Optimization in Machine Learning
-
-| Machine Learning Method | Convex Nature |
-|---|---|
-| Linear Regression | Convex |
-| Logistic Regression | Convex |
-| Support Vector Machine | Convex |
-| Deep Neural Networks | Mostly Non-convex |
-
-Convex optimization is important because it ensures that the solution obtained is globally optimal.
-
-. Practical Workflow
+A very simple convex function is:
 
 ```text
-Define Cost Function
-        ↓
-Plot Function
-        ↓
-Observe Shape
-        ↓
-Find Minimum
-        ↓
-Understand Convexity
-
-
-Prepared by : Manish Chhabra ,MSc. CS, MCA Gold Medalist, M. Tech. CSE, 
-                           PhD. CSE(Cloud Computing using ML/NLP)**
+f(x) = x²
